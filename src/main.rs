@@ -1,3 +1,9 @@
+enum InstructionType {
+    Add,
+    Sub,
+    Halt
+}
+
 fn main() {
     println!("Hello, world!");
     let a = encode((5, 15));

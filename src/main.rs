@@ -4,12 +4,11 @@ enum Instruction {
     Halt
 }
 
-fn main() {
-    println!("Hello, world!");
-    let a = encode((5, 15));
-    println!("{}", a);
+struct RegisterMachine {
+    registers: Vec<i32>,
+    program:   Vec<Instruction>,
 }
 
-fn encode((a, b): (i32, i32)) -> i32 {
-    return a + b;
+fn main() {
+    
 }
